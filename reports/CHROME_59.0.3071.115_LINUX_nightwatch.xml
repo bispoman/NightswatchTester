@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="nightwatch"
+    errors="0" failures="1" hostname="" id="" package="nightwatch" skipped="0"
+    tests="1" time="4.383" timestamp="Wed, 09 Aug 2017 17:07:48 GMT">
+  
+    <testcase name="Demo test Google" classname="nightwatch" time="4.383" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;#main&gt; contains text: &quot;Night Watch&quot;.">    at Object.Demo test Google (/home/danielbispo/work/NightswatchTester/tests/nightwatch.js:10:15)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
