@@ -30,13 +30,6 @@ To run the tests, supposing you've installed the Nightwatch as global, you just 
 
 `Nightwatch tests/avenue-tests.js --env chrome` 
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
 ### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+If you have any sort of problem or trouble running this tests, feel free for contacting me through my email: daniel@bisponet.com
