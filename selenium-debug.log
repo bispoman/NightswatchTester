@@ -1,56 +1,58 @@
-14:07:48.284 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-14:07:48.285 INFO - Launching a standalone Selenium Server
-2017-08-09 14:07:48.297:INFO::main: Logging initialized @176ms to org.seleniumhq.jetty9.util.log.StdErrLog
-14:07:48.332 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+15:30:58.461 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+15:30:58.461 INFO - Launching a standalone Selenium Server
+2017-08-09 15:30:58.476:INFO::main: Logging initialized @222ms to org.seleniumhq.jetty9.util.log.StdErrLog
+15:30:58.513 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
-14:07:48.332 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+15:30:58.513 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
-14:07:48.332 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:07:48.333 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+15:30:58.513 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:30:58.513 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-14:07:48.333 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:07:48.333 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-14:07:48.333 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+15:30:58.513 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:30:58.513 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+15:30:58.514 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
-2017-08-09 14:07:48.360:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-08-09 14:07:48.383:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@26653222{/,null,AVAILABLE}
-2017-08-09 14:07:48.393:INFO:osjs.AbstractConnector:main: Started ServerConnector@598067a5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-08-09 14:07:48.393:INFO:osjs.Server:main: Started @272ms
-14:07:48.393 INFO - Selenium Server is up and running
-14:07:48.536 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-14:07:48.554 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Nightwatch, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-14:07:48.568 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Nightwatch, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 17736
+2017-08-09 15:30:58.545:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-08-09 15:30:58.574:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@26653222{/,null,AVAILABLE}
+2017-08-09 15:30:58.587:INFO:osjs.AbstractConnector:main: Started ServerConnector@598067a5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-08-09 15:30:58.588:INFO:osjs.Server:main: Started @334ms
+15:30:58.588 INFO - Selenium Server is up and running
+15:30:58.742 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+15:30:58.762 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Netshoes, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+15:30:58.777 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Netshoes, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 23073
 Only local connections are allowed.
-14:07:49.260 INFO - Detected dialect: OSS
-14:07:49.287 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Nightwatch, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-14:07:49.311 INFO - Executing: [get: http://www.google.com])
-14:07:51.011 INFO - Done: [get: http://www.google.com]
-14:07:51.016 INFO - Executing: [find elements: By.cssSelector: body])
-14:07:51.046 INFO - Done: [find elements: By.cssSelector: body]
-14:07:51.049 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (5c48e55d0e31f8dc4ab53fc2d6ea5164)] -> css selector: body]])
-14:07:51.072 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (5c48e55d0e31f8dc4ab53fc2d6ea5164)] -> css selector: body]]
-14:07:51.077 INFO - Executing: [find element: By.cssSelector: input[type=text]])
-14:07:51.093 INFO - Done: [find element: By.cssSelector: input[type=text]]
-14:07:51.096 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on LINUX (5c48e55d0e31f8dc4ab53fc2d6ea5164)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
-14:07:51.148 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on LINUX (5c48e55d0e31f8dc4ab53fc2d6ea5164)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
-14:07:51.150 INFO - Executing: [find elements: By.cssSelector: input[name=btnK]])
-14:07:51.166 INFO - Done: [find elements: By.cssSelector: input[name=btnK]]
-14:07:51.168 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on LINUX (5c48e55d0e31f8dc4ab53fc2d6ea5164)] -> css selector: input[name=btnK]]])
-14:07:51.184 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on LINUX (5c48e55d0e31f8dc4ab53fc2d6ea5164)] -> css selector: input[name=btnK]]]
-14:07:51.187 INFO - Executing: [find element: By.cssSelector: input[name=btnK]])
-14:07:51.214 INFO - Done: [find element: By.cssSelector: input[name=btnK]]
-14:07:51.218 INFO - Executing: [click: 2 [[ChromeDriver: chrome on LINUX (5c48e55d0e31f8dc4ab53fc2d6ea5164)] -> css selector: input[name=btnK]]])
-14:07:51.611 WARN - Exception thrown
-org.openqa.selenium.WebDriverException: unknown error: Element <input value="Pesquisa Google" aria-label="Pesquisa Google" name="btnK" type="submit" jsaction="sf.chk"> is not clickable at point (417, 411). Other element would receive the click: <div class="sbqs_c">...</div>
+15:31:00.230 INFO - Detected dialect: OSS
+15:31:00.269 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Netshoes, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+15:31:00.351 INFO - Executing: [get: http://www.netshoes.com.br/])
+15:31:02.916 INFO - Done: [get: http://www.netshoes.com.br/]
+15:31:02.921 INFO - Executing: [find elements: By.cssSelector: body])
+15:31:03.013 INFO - Done: [find elements: By.cssSelector: body]
+15:31:03.017 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (065a6b2329ce3bb18ee19032283b096e)] -> css selector: body]])
+15:31:03.042 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (065a6b2329ce3bb18ee19032283b096e)] -> css selector: body]]
+15:31:03.046 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:31:03.064 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:31:03.068 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on LINUX (065a6b2329ce3bb18ee19032283b096e)] -> css selector: input[type=text]], [P, a, r, i, s,  , S, a, i, n, t, -, G, e, r, m, a, i, n]])
+15:31:03.177 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on LINUX (065a6b2329ce3bb18ee19032283b096e)] -> css selector: input[type=text]], [P, a, r, i, s,  , S, a, i, n, t, -, G, e, r, m, a, i, n]]
+15:31:03.180 INFO - Executing: [send keys to active: []])
+15:31:14.728 INFO - Done: [send keys to active: []]
+15:31:14.730 INFO - Executing: [find elements: By.cssSelector: body])
+15:31:14.746 INFO - Done: [find elements: By.cssSelector: body]
+15:31:14.748 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on LINUX (065a6b2329ce3bb18ee19032283b096e)] -> css selector: body]])
+15:31:14.762 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on LINUX (065a6b2329ce3bb18ee19032283b096e)] -> css selector: body]]
+15:31:14.764 INFO - Executing: [find elements: By.cssSelector: img[title=Camisa Paris Saint Germain Infantil Home 16/17 s/nº Torcedor Nike - Marinho+Vermelho]])
+15:31:15.294 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
   (Session info: chrome=59.0.3071.115)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Linux 4.4.0-89-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 38 milliseconds
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'finlandia', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-89-generic', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=/tmp/.org.chromium.Chromium.PUDjzM}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 5c48e55d0e31f8dc4ab53fc2d6ea5164
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=/tmp/.org.chromium.Chromium.OAwFcf}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 065a6b2329ce3bb18ee19032283b096e
+*** Element info: {Using=css selector, value=img[title=Camisa Paris Saint Germain Infantil Home 16/17 s/nº Torcedor Nike - Marinho+Vermelho]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -58,40 +60,83 @@ Session ID: 5c48e55d0e31f8dc4ab53fc2d6ea5164
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:505)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)
-	at com.sun.proxy.$Proxy5.click(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:345)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.openqa.selenium.remote.server.KnownElements$1.invoke(KnownElements.java:64)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:30)
-	at org.openqa.selenium.remote.server.handler.ClickElement.call(ClickElement.java:22)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:177)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:50)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:35)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:748)
-14:07:51.612 WARN - Exception: unknown error: Element <input value="Pesquisa Google" aria-label="Pesquisa Google" name="btnK" type="submit" jsaction="sf.chk"> is not clickable at point (417, 411). Other element would receive the click: <div class="sbqs_c">...</div>
+15:31:15.318 WARN - Exception: invalid selector: An invalid or illegal selector was specified
   (Session info: chrome=59.0.3071.115)
   (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Linux 4.4.0-89-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 38 milliseconds
+Command duration or timeout: 18 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'finlandia', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-89-generic', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=/tmp/.org.chromium.Chromium.PUDjzM}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 5c48e55d0e31f8dc4ab53fc2d6ea5164
-14:07:52.691 INFO - Executing: [find element: By.cssSelector: #main])
-14:07:52.711 INFO - Done: [find element: By.cssSelector: #main]
-14:07:52.718 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on LINUX (5c48e55d0e31f8dc4ab53fc2d6ea5164)] -> css selector: #main]])
-14:07:52.742 INFO - Done: [get text: 3 [[ChromeDriver: chrome on LINUX (5c48e55d0e31f8dc4ab53fc2d6ea5164)] -> css selector: #main]]
-14:07:52.746 INFO - Executing: [delete session: 338e719f-8511-4fa9-b8b3-c33bd4e2e9c7])
-14:07:52.814 INFO - Done: [delete session: 338e719f-8511-4fa9-b8b3-c33bd4e2e9c7]
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=/tmp/.org.chromium.Chromium.OAwFcf}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 065a6b2329ce3bb18ee19032283b096e
+*** Element info: {Using=css selector, value=img[title=Camisa Paris Saint Germain Infantil Home 16/17 s/nº Torcedor Nike - Marinho+Vermelho]}
+15:31:15.979 INFO - Executing: [find elements: By.cssSelector: img[title=Camisa Paris Saint Germain Infantil Home 16/17 s/nº Torcedor Nike - Marinho+Vermelho]])
+15:31:16.426 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Linux 4.4.0-89-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'finlandia', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-89-generic', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=/tmp/.org.chromium.Chromium.OAwFcf}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 065a6b2329ce3bb18ee19032283b096e
+*** Element info: {Using=css selector, value=img[title=Camisa Paris Saint Germain Infantil Home 16/17 s/nº Torcedor Nike - Marinho+Vermelho]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:437)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:505)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:398)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:177)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:50)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:35)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+15:31:16.426 WARN - Exception: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Linux 4.4.0-89-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'finlandia', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-89-generic', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=/tmp/.org.chromium.Chromium.OAwFcf}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.115, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 065a6b2329ce3bb18ee19032283b096e
+*** Element info: {Using=css selector, value=img[title=Camisa Paris Saint Germain Infantil Home 16/17 s/nº Torcedor Nike - Marinho+Vermelho]}
+15:31:16.547 INFO - Executing: [delete session: 86606d04-17e6-4cec-b426-9d6b57ecc70c])
+15:31:16.671 INFO - Done: [delete session: 86606d04-17e6-4cec-b426-9d6b57ecc70c]

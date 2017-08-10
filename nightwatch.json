@@ -12,9 +12,7 @@
     "log_path" : "",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "./bin/chromedriver",
-      "webdriver.gecko.driver" : "",
-      "webdriver.edge.driver" : ""
+      "webdriver.chrome.driver" : "./bin/chromedriver"
     }
   },
 
@@ -30,12 +28,6 @@
     "chrome" : {
       "desiredCapabilities": {
         "browserName": "chrome"
-      }
-    },
-
-    "edge" : {
-      "desiredCapabilities": {
-        "browserName": "MicrosoftEdge"
       }
     }
   }
