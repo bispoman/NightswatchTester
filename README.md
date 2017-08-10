@@ -28,7 +28,7 @@ If possible, install Nightwatch and Node as global, it makes everything a lot ea
 
 To run the tests, supposing you've installed the Nightwatch as global, you just need to run the command below on project's root folder:
 
-Nightwatch tests/avenue-tests.js --env chrome
+**Nightwatch tests/avenue-tests.js --env chrome**
 
 ### Contribution guidelines ###
 
